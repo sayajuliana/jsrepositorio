@@ -8,4 +8,23 @@ Algoritmo
 
 let numero= parseInt(prompt ("Ingresar un número"));
 
-if (numero %  )
+switch (numero){
+    case 1:
+
+    case 2:
+
+    case 3:
+
+    case 5:
+
+    case 7:
+
+    case 11:
+
+    case 13: console.log("Es un numero primo");
+             break;
+    
+    default: console.log("No es un numero primo");
+             break;
+
+}
