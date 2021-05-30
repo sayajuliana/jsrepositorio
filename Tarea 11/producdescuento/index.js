@@ -8,7 +8,7 @@ fin
 */
 
 function precioDescuento(precio, descuento){
-    let valor = ((precio*descuento)+precio);
+    let valor = (precio-(precio*descuento));
     return valor; 
 }
 
