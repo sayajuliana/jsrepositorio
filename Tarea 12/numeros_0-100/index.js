@@ -10,12 +10,12 @@ function numeros_0_100 (numero){
 }
 numeros_0_100(numero); 
 
-console.log("-----descentende-----")
+console.log("-----descendente-----")
 
 let numeros = 100;
-function numeros_0_100 (numeros){
+function numeros_100_0 (numeros){
     for (numeros = 100; numeros >= 0; numeros-- ){
        console.log (numeros);
     }    
 }
-numeros_0_100(numeros); 
+numeros_100_0(numeros); 
