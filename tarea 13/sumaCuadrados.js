@@ -5,8 +5,7 @@ let sumaCuadrados = 0;
 let numero = 1; 
 
 while (numero <= n) {
-    cuadrado = n*n;
-    sumaCuadrados += cuadrado; 
+    sumaCuadrados  += numero*numero; 
     numero ++; 
 }
 console.log (sumaCuadrados);
