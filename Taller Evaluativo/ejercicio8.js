@@ -1,5 +1,5 @@
 function Usuario(){
-    this.doc  = prompt("Ingrese el número de documento");
+    this.documento  = prompt("Ingrese el número de documento");
     this.nombres = prompt("Ingrese sus nombres"); 
     this.apellidos  = prompt("Ingrese sus apellidos");
     this.edad = prompt("Ingrese su edad"); 
@@ -12,7 +12,7 @@ var numUsuario= prompt("Ingrese el número de usuarios que desea registrar")
 
 for ( let i= 0; i < numUsuario; i++) {
     alert("Ingrese los datos del  usuario "+(i+1));
-    persona[i] = new Usuario ();
+    persona[i] = new Usuario();
 }
 alert("Su registro fue exitoso"); 
 
@@ -22,15 +22,15 @@ function consultarReg(persona, numUsuario){
         for (const key in persona[i]) {
             if (consulta == persona[i][key]){
                 console.log(persona[i]);
-                return i
+                return i; 
             }
         }
         
     }
 }
 
-if (confirm("Desea confirmar su registro")) {
-    i=consultarReg(persona, numUsuario)
+if (confirm("¿Desea confirmar su registro?")) {
+   i=consultarReg(persona, numUsuario);
   }
 else {
     alert("Gracias por usar nuestro sistema");
